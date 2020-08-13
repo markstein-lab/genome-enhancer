@@ -11,7 +11,7 @@
 
 int getpagesize();
 int numberOfChromosomes;
-char *chrName[100];
+char *chrName[10000];
 int readContigs(FILE *);
 void readgenenames(FILE *, int);
 

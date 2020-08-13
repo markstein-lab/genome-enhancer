@@ -112,7 +112,7 @@ void readFormInput();
 
 void peter_test(alist);
 extern int numberOfChromosomes;
-extern char *chrName[100];
+extern char *chrName[10000];
 extern int *summaryData;
 extern int limited;
 extern int utr3;
