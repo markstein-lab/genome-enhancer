@@ -543,11 +543,13 @@ readyToSearch:
       both("\n");
    }
 
-   //Now, examine the hits together with the clustering requirements to
-   //report the clusters that were found.
-   reportClusters();
-   both("\n\n");
-   
+
+   unsigned long *cur;
+   for (cur = avbase; cur != av; cur++) {
+		   printf("%lu\n", *cur);
+   }
+
+
    if (fromTerminal == 0) {
       printGeneList();
       return 1;
